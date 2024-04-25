@@ -120,11 +120,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 401);
+            this.label1.Location = new System.Drawing.Point(3, 382);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 26);
+            this.label1.Size = new System.Drawing.Size(125, 52);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Copyright © 2020 Asix Limited.\r\nAll Rights Reserved.\r\n";
+            this.label1.Text = "© 2024.\r\nAll Rights Reserved.\r\n\r\nCredits to Francis Nweke.\r\n";
             // 
             // btnCpuScheduler
             // 
@@ -214,6 +214,7 @@
             this.listView1.BackColor = System.Drawing.SystemColors.Menu;
             this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listView1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(75, 64);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(347, 143);
